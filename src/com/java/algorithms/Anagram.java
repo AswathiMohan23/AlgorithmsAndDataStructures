@@ -2,11 +2,10 @@ package com.java.algorithms;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Anagram {
 
     public static void main(String[] args) {
-        System.out.println("===========================Code to check whether two strings are anagrams================");
+        System.out.println("\n===========================Code to check whether two strings are anagrams================");
         System.out.println("enter the first string : ");
         Scanner sc = new Scanner(System.in);
         String firstString = sc.next();
