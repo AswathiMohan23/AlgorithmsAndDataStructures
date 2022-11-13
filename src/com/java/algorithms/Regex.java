@@ -63,8 +63,6 @@ public class Regex {
     }
 
 
-
-
     // validate first name
     public static boolean isValidName( String firstName ) {
         return firstName.matches( "[A-Z][a-z]*" );
