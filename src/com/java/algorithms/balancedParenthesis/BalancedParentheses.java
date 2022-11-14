@@ -11,8 +11,6 @@ public class BalancedParentheses {
         balancingEquation(expression);
 
     }
-
-
     public static void balancingEquation(String expression) {
 
         for (int i = 0; i < expression.length(); i++)
@@ -42,5 +40,4 @@ public class BalancedParentheses {
         }
 
     }
-
 }

@@ -3,7 +3,7 @@ package com.java.algorithms.balancedParenthesis;
 public class Stack {
 
     private int maxSize;
-    private long[] stackArray=new long[50];
+    private long[] stackArray=new long[34];
     private int top;
 
     public void push(long j)
